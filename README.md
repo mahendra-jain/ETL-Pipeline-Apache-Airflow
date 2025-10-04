@@ -2,23 +2,23 @@
 
 Initial ubuntu commands:
 
-# create the virtual env
-source ~/airflow-env/bin/activate
+	# create the virtual env
+	source ~/airflow-env/bin/activate
 
-# Go to the dir /airflow/dags
-cd ~/airflow/dags
+	# Go to the dir /airflow/dags
+	cd ~/airflow/dags
 
-#create a new py file using the vs code
-code etl_pipeline.py
+	#create a new py file using the vs code
+	code etl_pipeline.py
 
-#ls to see the file in the folder
-ls
+	#ls to see the file in the folder
+	ls
 
-#run the scheduler
-airflow scheduler
+	#run the scheduler
+	airflow scheduler
 
-#run the webserver (in different terminal)
-airflow webserver -p 8080
+	#run the webserver (in different terminal)
+	airflow webserver -p 8080
 
 
 # etl_pipeline.py (code):
